@@ -1,0 +1,275 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.6; /* Line height for readability */
+    color:  #333; 
+    background-color: #f4f4f4; 
+    text-align: left;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+/* nav section */
+
+h1 {
+    font-size: 36px; 
+}
+
+h2 {
+    font-size: 24px; 
+}
+
+p {
+    margin: 1em 0; 
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar-menu {
+        background-color: #49c5b6;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .column.has-text-centered {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+/* home section */
+#home {
+    background: #00d1b2 no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+#name {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.6s;
+}
+
+#home .social-links{
+    margin-top: 70px;
+}
+
+#home .social-link {
+    font-size: 50px;
+    transition: 0.6s all ease;
+    color: #fff;
+    letter-spacing: 15px;
+}
+
+#home .social-link:nth-child(1):hover{
+    color: #0077B5;
+}
+
+#home .social-link:nth-child(2):hover{
+    color: #E4405F;
+}
+
+#home .social-link:nth-child(3):hover{
+    color: #FFFC00;
+}
+
+
+
+
+
+
+
+
+/* about section */
+.about-me-text h2 {
+    font-family: 'Your Custom Font', sans-serif;
+}
+
+.about-me-text p {
+    font-family: 'Another Custom Font', sans-serif;
+}
+
+.about-me-text h2 {
+    font-size: 36px;
+}
+
+.about-me-text p {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+/* portfolio section */
+.portfolio-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-item img {
+    width: 380px;
+    height: 280px;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.project-link, .github-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.project-link:hover, .github-link:hover {
+    color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+/* certificate section */
+
+.certificates-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.certificate {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* career style */
+
+#career {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.career-entry {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.career-entry:hover {
+    transform: scale(1.02);
+}
+
+.career-entry .subtitle {
+    font-weight: bold;
+    color: #333;
+}
+
+.career-entry .date {
+    color: #666;
+}
+
+.career-entry .description {
+    color: #444;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* contact section */
+.contact {
+    background-color: #f6f6f6;
+    padding: 3rem 0;
+}
+
+
+
+
+
+/* footer section */
+.links-list a {
+    color: #00d1b2;
+}
+
+.links-list a:hover {
+    color: #fff;
+}
+
+.footer a:focus {
+    outline: 2px solid #00d1b2;
+}
+
+.social-link {
+    font-size: 50px;
+    transition: 0.6s all ease;
+    color: #00d1b2;
+    letter-spacing: 15px;
+}
+
+.social-link:hover{
+    color: #fff;
+}
