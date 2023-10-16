@@ -246,6 +246,16 @@ p {
     padding: 3rem 0;
 }
 
+@media screen and (max-width: 1048px){
+
+    #contact-form {
+        padding: 20px;
+    }
+    #contact h2, .sub-t {
+        padding-left: 20px;
+    }
+}
+
 
 
 
@@ -273,3 +283,4 @@ p {
 .social-link:hover{
     color: #fff;
 }
+
